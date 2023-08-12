@@ -1,0 +1,194 @@
+/* Reset default browser styles */
+*,::after,::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+/* ..........BASIC SETUP............*/
+html {
+    background-color: #fff;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    }
+
+/* ..........HEADER COMPONENT............*/
+
+header {
+    height: 100vh;background-size: cover;
+    background-position: center;
+}
+    /* background-image: url(images/logo.jpg); */
+
+
+.main-nav {
+    float: right;
+    list-style: none;margin-top: 40px;margin-right: 150px;
+    }
+    
+    .main-nav li {
+    display: inline-block;
+    margin-left: 10px;margin-right: 10px;
+    
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        padding-top: 8px 0;
+        color:green;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size:80% ;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom 0.2s;
+    }
+    
+    .main-nav li a:hover,
+    .main-nav li a:active {
+        border-bottom: 2px solid green;
+    }
+    .headclass {
+        position: absolute;
+        /* width: 1140px; */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .logo {
+        height: 400px; width:1255px;
+        float: left;margin-top: 20px;
+        margin-left: 50px;
+    }
+    .name {
+        float: left;margin-top: -300px;
+        text-align: center;margin-left: 200px;
+        color: aliceblue;font-size:200%;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3)
+    }
+    h1 {
+       
+        font-size: 200%;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3)
+    }
+    .media {
+        float: left;margin-top: -75px;
+        margin-left: 610px;
+    }
+    .linked {
+        height: 30px; width: 30px;
+
+    }
+    .git {
+        height: 30px; width: 30px;
+    }
+    .bio {
+        color: cornflowerblue;
+        margin-left: 100px;
+    }
+    section {
+        display:flex;
+        flex-direction: row;
+        
+    }
+    .pitch {
+        color: #fff;
+        font-size: 90%;
+        padding: 0.5rem;
+        margin: 20px;
+        margin-left: 60px;
+    }
+    
+    .pitch >div { background-color: grey;padding: 15px;
+    margin-left:20px ;
+    }
+    .pitch1 {
+        text-align: center;
+    }
+    .pitch2 {
+        text-align: center;
+    }
+    .project {
+        
+        font-size: 100%;
+        font-weight: 100;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+        color: gray;
+    }
+    
+        
+    
+    .projects {
+        color:grey;
+        font-size: 90%;
+        padding: 0.5rem;
+        margin: 20px;
+        margin-left: 60px;
+    }
+    
+    .projects >div { background-color: white;padding: 15px ;
+    margin-left:20px ;border: 2px solid grey; text-align: center;
+    }
+  
+    .skills {
+            
+            padding: 10px 20px;
+            font-weight: 300;
+            text-decoration: none;
+            border-radius: 200px;
+            color: #fff;
+            background-color: grey;
+            margin-left: 40%;
+            max-width: fit-content;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+            transition: background-color 0.2s, border 0.2s, color 0.2s;
+        }
+        .set{
+            background-color: blanchedalmond;
+            width:1240px; margin-left: 80px;
+            padding: 30px;
+        }
+        .set1 {
+            
+            display: flex; color: grey;
+        }
+        .set1 >div { background-color: white;padding: 15px ;width: 100%;
+            margin-left:20px ;border: 2px solid grey; text-align: center;
+        }
+       .skii {
+        display: flex;
+       }
+       .skillss {
+        margin-left: 15%;
+        margin-top: 2%;
+       }
+       .skimage {
+        height: 50px;width: 50px;
+       }
+       .certii {
+        display: flex;
+       }
+       .certs {
+        margin-left: 5%;
+        margin-top: 2%;
+       }
+       .certmage {
+        height: 50px;width: 50px;
+       }
+       ol {
+        list-style-type:unset;
+       }
+       .list {
+        margin-left: 30%;
+       }
+
+    
